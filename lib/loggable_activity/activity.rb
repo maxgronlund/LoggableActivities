@@ -80,8 +80,7 @@ module LoggableActivity
           route: payload.payload_route,
           record_display_name: payload.fetch_record_display_name,
           current_payload: payload.current_payload,
-          data_owner: payload.data_owner,
-          public_attrs: payload.public_attrs
+          data_owner: payload.data_owner
         }
       end
     end
